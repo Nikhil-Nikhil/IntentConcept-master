@@ -7,7 +7,7 @@
     android:gravity="center"
     android:orientation="vertical"
     android:padding="10sp"
-    android:background="#eeeeee"
+    android:background="#35D181"
     tools:context=".MainActivity">
 
     <TextView
@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="Login Screen"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
         android:textSize="25sp" />
 
     <EditText
@@ -50,9 +50,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login"
-        android:drawableLeft="@drawable/ic_action_name"
+
         android:drawableTint="@color/colorPrimaryDark"
-        android:textColor="@color/colorAccent"
+        android:textColor="#35D181"
         android:textSize="20sp"/>
 
 
